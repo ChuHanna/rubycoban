@@ -8,7 +8,6 @@ end
 
 class Plane
  include Price
- # instance method in ra so luong tiep vien hang khong tren may bay
  def flight_attendant(quantity)
   puts "In flight have #{quantity} attendant"
  end
@@ -16,6 +15,7 @@ class Plane
  def self.max_fly_speed
     puts "913 km/h"
  end
+ 
 end
 # a
 vietnam_airline = Plane.new
