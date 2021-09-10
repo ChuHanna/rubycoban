@@ -1,7 +1,7 @@
 module Price
  def min_ticket_need_sell 
   puts "You need sell at least 100 ticket to fly"
-  return 100
+  100
  end
 
 end
